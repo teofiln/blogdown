@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Hugo website</title>
+    <title>Teofil Nakov</title>
     <link>/</link>
-    <description>Recent content on A Hugo website</description>
+    <description>Recent content on Teofil Nakov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R function to calculate transitions/transversion ratio of SNPs from a VCF file</title>
+      <link>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</guid>
+      <description>One of the checks if the SNPs called in an analysis are sound, is to take a look at the ratio of transitions to transversions (T_i/T_v). If mutations were random, we expect to see a T_i/T_v of 0.5, because there are twice as many types of transversions as there are transitions. But, of course, transitions (purine-to-purine or pirimidine-to-pirimidine) and transversions (between purines and pirimidines) are not equally likely—transitions are much more common than transitions.</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/2019/01/22/test/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/22/test/</guid>
+      <description>One of the checks if the SNPs called in an analysis are sound, is to take a look at the ratio of transitions to transversions (T_i/T_v). If mutations were random, we expect to see a T_i/T_v of 0.5, because there are twice as many types of transversions as there are transitions. But, of course, transitions (purine-to-purine or pirimidine-to-pirimidine) and transversions (between purines and pirimidines) are not equally likely—transitions are much more common than transitions.</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
@@ -19,15 +37,6 @@
       <guid>/2016/12/30/a-plain-markdown-post/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
     </item>
     
     <item>
@@ -48,6 +57,38 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>You’ve reached the personal website of Teofil Nakov — a biologist working as a postdoctoral researcher in the Alverson lab at the University of Arkansas.
+I study various aspects of diatom evolution using laboratory experiments, phylogenetics, and genomics. Diatom taxonomy, especially in ancient lakes, was a focus early on in my studies. In graduate school I tested hypotheses about phylogenetic relationships among species the evolution of adaptive phenotypes. As a postdoc I am learning how diatoms acclimate to changes in salinity at the level of genes and their transcripts.</description>
+    </item>
+    
+    <item>
+      <title>Meetings</title>
+      <link>/meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/meetings/</guid>
+      <description>2018 Nakov T, Beaulieu JM and Alverson AJ. Freshwater diatom lineages diversify faster than marine in both planktonic and benthic habitats. Joint meeting of the Phycological Society of America and International Society of Protistologists; Vancouver, BC, Canada.
+Nakov T, Beaulieu JM and Alverson AJ. Diatom diversification through the lense of large sequence, fossil, trait, and diversity databases: Examining the roles of life history strategies and environmental gradients. International Diatom Symposium; Berlin, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/</guid>
+      <description>Google Scholar
+Preprints Nakov T, Beaulieu JM and Alverson AJ. Freshwater diatom lineages diversify faster than marine in both planktonic and benthic habitats. Preprint at bioRxiv, p.406165
+Onyshchenko A, Ruck EC, Nakov T, Alverson AJ. A single loss of photosynthesis in diatoms. Accepted, American Journal of Botany. Preprint at bioRxiv, p.298810
+Papers 2018 Nakov T, Beaulieu JM and Alverson AJ. Insights into global planktonic diatom diversity: The importance of comparisons between phylogenetically equivalent units that account for time.</description>
     </item>
     
   </channel>
