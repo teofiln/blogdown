@@ -1,10 +1,13 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Teofil Nakov"
-theme = "pristine"
+theme = "hugo-finite"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = []
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "monokai"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -21,6 +24,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Meetings"
     url = "/meetings/"
     weight = 3
+[[menu.main]]
+    name = "Posts"
+    url = "/post/"
+    weight = 4
     
 [[menu.contact]]
     name = "Email"
