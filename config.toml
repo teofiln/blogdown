@@ -1,85 +1,87 @@
 baseurl = "/"
-languageCode = "en-us"
 title = "Teofil Nakov"
-theme = "hugo-finite"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = []
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsStyle = "monokai"
+author = "Teofil Nakov"
+copyright = "Copyright (c) 2019 Teofil Nakov"
+canonifyurls = true
+paginate = 3
+theme="hugo-finite"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
-[[menu.main]]
-    name = "Papers"
-    url = "/papers/"
-    weight = 2
-[[menu.main]]
-    name = "Meetings"
-    url = "/meetings/"
-    weight = 3
-[[menu.main]]
-    name = "Posts"
-    url = "/post/"
-    weight = 4
-    
-[[menu.contact]]
-    name = "Email"
-    url = "mailto:teofiln@gmail.com"
-    weight = 1
-[[menu.contact]]
-    name = "Github"
-    url = "https://github.com/teofiln"
-    weight = 2
-[[menu.contact]]
-    name = "Twitter"
-    url = "https://twitter.com/teofilnakov"
-    weight = 3
-    
-[[menu.projects]]
-    name = "Diversification"
-    url = "/div/"
-    weight = 1
-[[menu.projects]]
-    name = "Salinity & transcriptomes"
-    url = "trans"
-    weight = 2
-[[menu.projects]]
-    name = "Salinity & genomes"
-    url = "baltic"
-    weight = 3
-[[menu.projects]]
-    name = "Genome evolution"
-    url = "genomics"
-    weight = 4
-[[menu.projects]]
-    name = "Phylogenetics & diversity"
-    url = "phylo"
-    weight = 5
-    
 [params]
-    description = "Teofil Nakov's website"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+# Date format (refer to Go's date format: http://flippinggodateformat.com)
+# Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "2 January 2006"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+# Publications can have a Params.publication for citation references.
+# Publications can have a Params.kind, such as "book".
+# Both parameters are mapped to an icon in partials/pub-icon.html.
+
+bio_full = "Pierre de Fermat: Lawyer at the Parlement of Toulouse, mathematician in his spare time!"
+bio_twitter = "pierrede_fermat"
+
+# Title of posts section on main page.
+posts_title = "Posts"
+
+# Number of posts to show on main page.
+posts_count = 3
+
+# Title of publications section on main page.
+pubs_title = "Papers"
+
+# Number of publications to show on main page.
+pubs_count = 3
+
+[[params.education]]
+  course = "Bachelor in Civil Law"
+  institution = "University of Orléans"
+  year = 1626
+
+[[params.social]]
+  icon = "envelope"
+  icon_pack = "fa"
+  link = "mailto:teofiln@gmail.com"
+  text = "teofiln@gmail.com"
     
-    portrait="img/hassall-transparent.png"
-    
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[[params.social]]
+  icon = "twitter"
+  icon_pack = "fa"
+  link = "https://twitter.com/teofilnakov"
+  text = "@teofilnakov"
+  site = "Twitter"
 
+[[params.social]]
+  icon = "github"
+  icon_pack = "fa"
+  link = "//https://github.com/teofiln"
+  text = "Teofil"
+  site = "GitHub"
+
+[[params.social]]
+  icon = "researchgate"
+  icon_pack = "ai"
+  link = "https://www.researchgate.net/profile/Teofil_Nakov"
+  text = "ResearchGate"
+
+# Navigation Links
+# The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Publications"
+  url = "/publication/"
+  weight = 2
+
+[[menu.main]]
+  name = "Meetings"
+  url = "/meeting/"
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "/post/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 5

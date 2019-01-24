@@ -5,7 +5,7 @@
     <link>/tags/baltic-sea/</link>
     <description>Recent content in Baltic Sea on Teofil Nakov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <copyright>Copyright (c) 2019 Teofil Nakov</copyright>
     <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/baltic-sea/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>R function to calculate transitions/transversion ratio of SNPs from a VCF file</title>
-      <link>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</link>
+      <link>/post/ti-tv-ratio-of-snps-in-vcf/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</guid>
+      <guid>/post/ti-tv-ratio-of-snps-in-vcf/</guid>
       <description>One of the checks if the SNPs called in an analysis are sound, is to take a look at the ratio of transitions to transversions (T_i/T_v). If mutations were random, we expect to see a T_i/T_v of 0.5, because there are twice as many types of transversions as there are transitions. But, of course, transitions (purine-to-purine or pirimidine-to-pirimidine) and transversions (between purines and pirimidines) are not equally likely—transitions are much more common than transitions.</description>
     </item>
     

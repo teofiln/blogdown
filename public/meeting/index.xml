@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetings on Teofil Nakov</title>
+    <link>/meeting/</link>
+    <description>Recent content in Meetings on Teofil Nakov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2019 Teofil Nakov</copyright>
+    
+	<atom:link href="/meeting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meetings</title>
+      <link>/meeting/meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/meeting/meetings/</guid>
+      <description>2018 Nakov T, Beaulieu JM and Alverson AJ. Freshwater diatom lineages diversify faster than marine in both planktonic and benthic habitats. Joint meeting of the Phycological Society of America and International Society of Protistologists; Vancouver, BC, Canada.
+Nakov T, Beaulieu JM and Alverson AJ. Diatom diversification through the lense of large sequence, fossil, trait, and diversity databases: Examining the roles of life history strategies and environmental gradients. International Diatom Symposium; Berlin, Germany.</description>
+    </item>
+    
+  </channel>
+</rss>

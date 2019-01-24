@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Teofil Nakov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <copyright>Copyright (c) 2019 Teofil Nakov</copyright>
     <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -13,50 +13,11 @@
     
     <item>
       <title>R function to calculate transitions/transversion ratio of SNPs from a VCF file</title>
-      <link>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</link>
+      <link>/post/ti-tv-ratio-of-snps-in-vcf/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/01/22/ti-tv-ratio-of-snps-in-vcf/</guid>
+      <guid>/post/ti-tv-ratio-of-snps-in-vcf/</guid>
       <description>One of the checks if the SNPs called in an analysis are sound, is to take a look at the ratio of transitions to transversions (T_i/T_v). If mutations were random, we expect to see a T_i/T_v of 0.5, because there are twice as many types of transversions as there are transitions. But, of course, transitions (purine-to-purine or pirimidine-to-pirimidine) and transversions (between purines and pirimidines) are not equally likely—transitions are much more common than transitions.</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>/2019/01/22/test/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/01/22/test/</guid>
-      <description>One of the checks if the SNPs called in an analysis are sound, is to take a look at the ratio of transitions to transversions (T_i/T_v). If mutations were random, we expect to see a T_i/T_v of 0.5, because there are twice as many types of transversions as there are transitions. But, of course, transitions (purine-to-purine or pirimidine-to-pirimidine) and transversions (between purines and pirimidines) are not equally likely—transitions are much more common than transitions.</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
@@ -70,21 +31,30 @@ I study various aspects of diatom evolution using laboratory experiments, phylog
     </item>
     
     <item>
-      <title>Meetings</title>
-      <link>/meetings/</link>
+      <title>Insights into global planktonic diatom diversity: The importance of comparisons between phylogenetically equivalent units that account for time</title>
+      <link>/publication/isme-tara/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/meetings/</guid>
+      <guid>/publication/isme-tara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetings</title>
+      <link>/meeting/meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/meeting/meetings/</guid>
       <description>2018 Nakov T, Beaulieu JM and Alverson AJ. Freshwater diatom lineages diversify faster than marine in both planktonic and benthic habitats. Joint meeting of the Phycological Society of America and International Society of Protistologists; Vancouver, BC, Canada.
 Nakov T, Beaulieu JM and Alverson AJ. Diatom diversification through the lense of large sequence, fossil, trait, and diversity databases: Examining the roles of life history strategies and environmental gradients. International Diatom Symposium; Berlin, Germany.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/papers/</link>
+      <link>/publication/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/papers/</guid>
+      <guid>/publication/papers/</guid>
       <description>Google Scholar
 Preprints Nakov T, Beaulieu JM and Alverson AJ. Freshwater diatom lineages diversify faster than marine in both planktonic and benthic habitats. Preprint at bioRxiv, p.406165
 Onyshchenko A, Ruck EC, Nakov T, Alverson AJ. A single loss of photosynthesis in diatoms. Accepted, American Journal of Botany. Preprint at bioRxiv, p.298810
