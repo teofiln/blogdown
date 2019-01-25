@@ -8,7 +8,64 @@
   </url>
   
   <url>
+    <loc>/about/about/</loc>
+    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/meeting/xaa/</loc>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/isme-tara/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/meeting/xae/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xaf/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xag/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xah/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xai/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xaj/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xak/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xab/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xac/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/xad/</loc>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
+    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,16 +80,8 @@
   </url>
   
   <url>
-    <loc>/publication/isme-tara/</loc>
-  </url>
-  
-  <url>
     <loc>/meeting/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/meeting/meetings/</loc>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,7 +92,7 @@
   
   <url>
     <loc>/publication/</loc>
-    <priority>0</priority>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -83,6 +132,7 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

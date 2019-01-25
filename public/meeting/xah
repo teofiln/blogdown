@@ -1,0 +1,1 @@
+**Nakov T**, Alverson AJ, and Theriot EC. Using a phylogenetic framework to study the evolution of cell size in the diatom order Thalassiosirales. 2011. International Diatom Symposium, St.Paul, MN, USA.

@@ -4,21 +4,21 @@ author = "Teofil Nakov"
 copyright = "Copyright (c) 2019 Teofil Nakov"
 canonifyurls = true
 paginate = 3
-theme="hugo-finite"
+theme = "hugo-finisterre"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "2 January 2006"
+# date_format = "2 January 2006"
 
 # Publications can have a Params.publication for citation references.
 # Publications can have a Params.kind, such as "book".
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
-bio_full = "Pierre de Fermat: Lawyer at the Parlement of Toulouse, mathematician in his spare time!"
-bio_twitter = "pierrede_fermat"
+bio_full = "I am a postdoctoral researcher at the Alverson lab at the University of Arkansas Fayetteville."
+bio_twitter = "teofil_nakov"
 
 # Title of posts section on main page.
 posts_title = "Posts"
@@ -33,9 +33,14 @@ pubs_title = "Papers"
 pubs_count = 3
 
 [[params.education]]
-  course = "Bachelor in Civil Law"
-  institution = "University of Orléans"
-  year = 1626
+  course = "PhD Plant Biology"
+  institution = "The University of Texas at Austin, Tx, USA"
+  year = 2014
+  
+[[params.education]]
+  course = "BSci Biochemistry & Physiology"
+  institution = "Sts Cyril & Methodius University, Skopje, Macedonia"
+  year = 2005
 
 [[params.social]]
   icon = "envelope"
@@ -63,8 +68,19 @@ pubs_count = 3
   link = "https://www.researchgate.net/profile/Teofil_Nakov"
   text = "ResearchGate"
 
+[[params.social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
+  text = "Google Scholar"
+
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
 
 [[menu.main]]
   name = "Publications"

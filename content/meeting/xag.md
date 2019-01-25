@@ -1,0 +1,1 @@
+Ruck EC, **Nakov T**, and Theriot EC. Phylogenetic insight into the origins of endemic diatom diversity: The Robustoid Surirellaceae from Lake Ohrid. 2012. Speciation in Ancient Lakes 6, Bogor, Indonesia.

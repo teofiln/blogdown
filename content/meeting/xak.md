@@ -1,0 +1,1 @@
+**Nakov T**, Spaulding SA and Theriot EC. A preliminary phylogeny of the cymbelloid diatoms using molecular data with emphasis on the genera Didymosphenia M. Schmidt and Navicymbula Krammer. 2008. Phycological Society of America Meeting, New Orleans, LA, USA.
