@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meetings on Teofil Nakov</title>
+    <title>Meetings on Teofil Nakov </title>
     <link>/meeting/</link>
-    <description>Recent content in Meetings on Teofil Nakov</description>
+    <description>Recent content in Meetings on Teofil Nakov </description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright (c) 2019 Teofil Nakov</copyright>
+    <language>en-us</language>
     <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/meeting/index.xml" rel="self" type="application/rss+xml" />

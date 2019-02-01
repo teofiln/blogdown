@@ -1,103 +1,234 @@
+# Page settings
+
 baseurl = "/"
-title = "Teofil Nakov"
-author = "Teofil Nakov"
-copyright = "Copyright (c) 2019 Teofil Nakov"
-canonifyurls = true
-paginate = 3
-theme = "hugo-finisterre"
+languageCode = "en-us"
+title = "Teofil Nakov "
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
 
 [params]
 
-# Date format (refer to Go's date format: http://flippinggodateformat.com)
-# Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-# date_format = "2 January 2006"
+# Meta
+    description = ""
+    author = "Teofil Nakov"
 
-# Publications can have a Params.publication for citation references.
-# Publications can have a Params.kind, such as "book".
-# Both parameters are mapped to an icon in partials/pub-icon.html.
+# Theme styles
 
-bio_full = "I am a postdoctoral researcher at the Alverson lab at the University of Arkansas Fayetteville."
-bio_twitter = "teofil_nakov"
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
 
-# Title of posts section on main page.
-posts_title = "Posts"
+    styles = "styles-6.css"
 
-# Number of posts to show on main page.
-posts_count = 3
+# Sidebar sections
 
-# Title of publications section on main page.
-pubs_title = "Papers"
+    # Profile section
+    [params.profile]
+        name = "Teofil Nakov"
+        tagline = "Diatoms | Phylogenetics | Evolution | Genomics | R"
+        avatar = "teo-web.png"
 
-# Number of publications to show on main page.
-pubs_count = 3
+    # Contact section
+    [params.contact]
+        enable = true
 
-[[params.education]]
-  course = "PhD Plant Biology"
-  institution = "The University of Texas at Austin, Tx, USA"
-  year = 2014
-  
-[[params.education]]
-  course = "BSci Biochemistry & Physiology"
-  institution = "Sts Cyril & Methodius University, Skopje, Macedonia"
-  year = 2005
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: tnakov@uark.edu"
+        title = "tnakov@uark.edu"
 
-[[params.social]]
-  icon = "envelope"
-  icon_pack = "fa"
-  link = "mailto:teofiln@gmail.com"
-  text = "teofiln@gmail.com"
-    
-[[params.social]]
-  icon = "twitter"
-  icon_pack = "fa"
-  link = "https://twitter.com/teofilnakov"
-  text = "@teofilnakov"
-  site = "Twitter"
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+1-479-575-4886"
+        title = "+1-479-575-4886"
 
-[[params.social]]
-  icon = "github"
-  icon_pack = "fa"
-  link = "//https://github.com/teofiln"
-  text = "Teofil"
-  site = "GitHub"
+        [[params.contact.list]]
+        class = "website"
+        icon = "ai-google-scholar"
+        url = "//https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
+        title = "Google Scholar"
 
-[[params.social]]
-  icon = "researchgate"
-  icon_pack = "ai"
-  link = "https://www.researchgate.net/profile/Teofil_Nakov"
-  text = "ResearchGate"
+        [[params.contact.list]]
+        class = "researchgate"
+        icon = "ai-researchgate"
+        url = "//https://www.researchgate.net/profile/Teofil_Nakov"
+        title = "ResearchGate"
 
-[[params.social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
-  text = "Google Scholar"
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/teofiln"
+        title = "GitHub"
 
-# Navigation Links
-# The weight parameter defines the order that the links will appear in.
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/teofilnakov"
+        title = "Twitter"
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 2
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
 
-[[menu.main]]
-  name = "Publications"
-  url = "/publication/"
-  weight = 2
+        [[params.education.list]]
+        degree = "PhD in Plant Biology"
+        college = "The University of Texas at Austin"
+        dates = "2007 - 2014"
 
-[[menu.main]]
-  name = "Meetings"
-  url = "/meeting/"
-  weight = 3
+        [[params.education.list]]
+        degree = "BSc in Biochemistry and Physiology"
+        college = "Sts Cyril & Methodius University Skopje, Macedonia"
+        dates = "2000 - 2005"
 
-[[menu.main]]
-  name = "Blog"
-  url = "/post/"
-  weight = 4
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
 
-[[menu.main]]
-  name = "Contact"
-  url = "/#contact"
-  weight = 5
+        [[params.language.list]]
+        language = "Macedonian"
+        level = "Native"
+        
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "No vergonzoso"
+
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Football (with the feet)"
+
+        [[params.interests.list]]
+        interest = "Guitar"
+
+        [[params.interests.list]]
+        interest = "Chess"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "About"
+        summary = "I am a postdoctoral researcher in the [Alverson lab](http://alversonlab.com) at the [University of Arkansas](https://fulbright.uark.edu/departments/biology/). I study the evolution of marine and freshwater diatoms, a species-rich lineage important for global cycling of carbon and oxygen and famous for their intricately ornamented silica cell walls. My research leverages experimental, ecological, and genomic data---all grounded in a phylogenetic framework---to address trait evolution, diversification, and adaptation to changing environments."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-archive"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Postdoctoral fellow"
+        dates = "2014 - Present"
+        company = "University of Arkansas Fayetteville, Arkansas, USA"
+        details = "Reasearch on diatom diversification, transcriptional response to salinity, local adaptation to salinity gradients, phylogenomics and genome evolution."
+
+        [[params.jobs.list]]
+        position = "Research/Teaching assistant"
+        dates = "2007 - 2014"
+        company = "The University of Texas at Austin, Texas, USA"
+        details = "TA, Genetics. RA, diatom phylogenetics projects. Field work in Guam, Sulawesi, Siberia."
+
+        [[params.jobs.list]]
+        position = "Research/Teaching assistant"
+        dates = "2005 - 2007"
+        company = "Sts Cyril & Methodius University Skopje, Macedonia"
+        details = "TA, Phycology and Limnology. RA, diatom taxonomy and ecology in ancient Lake Ohrid."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-flask"
+        title = "Projects"
+        intro = ""
+
+        [[params.projects.list]]
+        title = "Functional traits, life history, and diversification"
+        url = ""
+        tagline = "A collection of studies ranging from the [**ecology of primary chloroplast endosymbiosis**](https://www.pnas.org/content/114/50/E10606.abstract) to [**global phytoplankton diversity patterns**](https://www.nature.com/articles/s41396-018-0221-y). I've also studied the evolution od diatom [**cell size**](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.1.0079), [**growth forms**](https://www.nature.com/articles/ismej2014108), and [**development**](https://www.sciencedirect.com/science/article/pii/S1055790316301798) and diversification from a [**life history**](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15137) and [**ecological**](https://www.biorxiv.org/content/10.1101/406165v1.abstract) perspectives."
+
+        [[params.projects.list]]
+        title = "Phylogenomics and genome evolution"
+        url = ""
+        tagline = "An ongoing project investigating [**historical polyploidy**](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1056) and [**genome evolution**](https://link.springer.com/article/10.1007/s00294-016-0652-9) in diatoms using whole [**genome and transcriptome**](https://diatom.shinyapps.io/TranscribedDiatoms/) scale data."
+
+        [[params.projects.list]]
+        title = "Acclimation and adaptation to changing salinity"
+        url = ""
+        tagline = "One aspect of this project is on the relationships between [**growth reaction norms at different salinities**](https://diatom.shinyapps.io/Diatoms_and_Salinity/) and gene expression, while another uses whole-genome resequencing to understand local adaptation by an euryhaline diatom to the [**Baltic Sea salinity gradient**](https://diatom.shinyapps.io/baltic-sea-gradient-maps/)."
+
+        [[params.projects.list]]
+        title = "R and Shiny"
+        url = ""
+        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [related to my research](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
+
+    # Future research section
+    [params.future]
+        enable = true
+        icon = "fa-flask"
+        title = "Future research"
+        intro = ""
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Teofil Nakov"
