@@ -41,37 +41,37 @@ disable404 = true
 
         [[params.contact.list]]
         class = "email"
-        icon = "fa-envelope"
+        #icon = "fa-envelope"
         url = "mailto: tnakov@uark.edu"
         title = "tnakov@uark.edu"
 
         [[params.contact.list]]
         class = "phone"
-        icon = "fa-phone"
+        #icon = "fa-phone"
         url = "tel:+1-479-575-4886"
         title = "+1-479-575-4886"
 
         [[params.contact.list]]
         class = "website"
-        icon = "ai-google-scholar"
+        #icon = "ai-google-scholar"
         url = "//https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
         title = "Google Scholar"
 
         [[params.contact.list]]
         class = "researchgate"
-        icon = "ai-researchgate"
+        #icon = "ai-researchgate"
         url = "//https://www.researchgate.net/profile/Teofil_Nakov"
         title = "ResearchGate"
 
         [[params.contact.list]]
         class = "github"
-        icon = "fa-github"
+        #icon = "fa-github"
         url = "//github.com/teofiln"
         title = "GitHub"
 
         [[params.contact.list]]
         class = "twitter"
-        icon = "fa-twitter"
+        #icon = "fa-twitter"
         url = "//twitter.com/teofilnakov"
         title = "Twitter"
 
@@ -82,12 +82,12 @@ disable404 = true
 
         [[params.education.list]]
         degree = "PhD in Plant Biology"
-        college = "The University of Texas at Austin"
+        college = "University of Texas at Austin"
         dates = "2007 - 2014"
 
         [[params.education.list]]
         degree = "BSc in Biochemistry and Physiology"
-        college = "Sts Cyril & Methodius University Skopje, Macedonia"
+        college = "Sts Cyril & Methodius University Skopje"
         dates = "2000 - 2005"
 
     # Languages section
@@ -143,7 +143,7 @@ disable404 = true
         position = "Postdoctoral fellow"
         dates = "2014 - Present"
         company = "University of Arkansas Fayetteville, Arkansas, USA"
-        details = "Reasearch on diatom diversification, transcriptional response to salinity, local adaptation to salinity gradients, phylogenomics and genome evolution."
+        details = "Research on diatom diversification, transcriptional response to salinity, local adaptation to salinity gradients, phylogenomics and genome evolution."
 
         [[params.jobs.list]]
         position = "Research/Teaching assistant"
@@ -182,7 +182,7 @@ disable404 = true
         [[params.projects.list]]
         title = "R and Shiny"
         url = ""
-        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [related to my research](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
+        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [**related to my research**](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
 
     # Future research section
     [params.future]
