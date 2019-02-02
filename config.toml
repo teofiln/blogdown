@@ -167,22 +167,22 @@ disable404 = true
         [[params.projects.list]]
         title = "Functional traits, life history, and diversification"
         url = ""
-        tagline = "A collection of studies ranging from the [**ecology of primary chloroplast endosymbiosis**](https://www.pnas.org/content/114/50/E10606.abstract) to [**global phytoplankton diversity patterns**](https://www.nature.com/articles/s41396-018-0221-y). I've also studied the evolution od diatom [**cell size**](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.1.0079), [**growth forms**](https://www.nature.com/articles/ismej2014108), and [**development**](https://www.sciencedirect.com/science/article/pii/S1055790316301798) and diversification from a [**life history**](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15137) and [**ecological**](https://www.biorxiv.org/content/10.1101/406165v1.abstract) perspectives."
+        tagline = "A collection of studies ranging from the [ecology of primary chloroplast endosymbiosis](https://www.pnas.org/content/114/50/E10606.abstract) to [global phytoplankton diversity patterns](https://www.nature.com/articles/s41396-018-0221-y). I've also studied the evolution od diatom [cell size](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.1.0079), [growth forms](https://www.nature.com/articles/ismej2014108), and [development](https://www.sciencedirect.com/science/article/pii/S1055790316301798) and diversification from a [life history](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15137) and [ecological](https://www.biorxiv.org/content/10.1101/406165v1.abstract) perspectives."
 
         [[params.projects.list]]
         title = "Phylogenomics and genome evolution"
         url = ""
-        tagline = "An ongoing project investigating [**historical polyploidy**](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1056) and [**genome evolution**](https://link.springer.com/article/10.1007/s00294-016-0652-9) in diatoms using whole [**genome and transcriptome**](https://diatom.shinyapps.io/TranscribedDiatoms/) scale data."
+        tagline = "An ongoing project investigating [historical polyploidy](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1056) and [genome evolution](https://link.springer.com/article/10.1007/s00294-016-0652-9) in diatoms using whole [genome and transcriptome](https://diatom.shinyapps.io/TranscribedDiatoms/) scale data."
 
         [[params.projects.list]]
         title = "Acclimation and adaptation to changing salinity"
         url = ""
-        tagline = "One aspect of this project is on the relationships between [**growth reaction norms at different salinities**](https://diatom.shinyapps.io/Diatoms_and_Salinity/) and gene expression, while another uses whole-genome resequencing to understand local adaptation by an euryhaline diatom to the [**Baltic Sea salinity gradient**](https://diatom.shinyapps.io/baltic-sea-gradient-maps/)."
+        tagline = "One aspect of this project is on the relationships between [growth reaction norms at different salinities](https://diatom.shinyapps.io/Diatoms_and_Salinity/) and gene expression, while another uses whole-genome resequencing to understand local adaptation in the [Baltic Sea salinity gradient](https://diatom.shinyapps.io/baltic-sea-gradient-maps/)."
 
         [[params.projects.list]]
         title = "R and Shiny"
         url = ""
-        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [**related to my research**](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
+        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [related to my research](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
 
     # Future research section
     [params.future]

@@ -32,6 +32,11 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+/* add underline decoration to link text */
+a:link {
+  text-decoration: underline;
+}
+
 a:hover {
   text-decoration: underline;
   color: #10171a;
